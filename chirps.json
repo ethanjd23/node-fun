@@ -1,1 +1,7 @@
-[{"username":"peepee","message":"poopoo"},{"username":"hello","message":"world"},{"username":"Jimmmy","message":"i be coolin"},{"username":"ya boi","message":"Node"},{"username":"ya girl","message":"JS"}]
+[
+  { "username": "peepee", "message": "poopoo" },
+  { "username": "hello", "message": "world" },
+  { "username": "Jimmmy", "message": "i be coolin" },
+  { "username": "ya boi", "message": "Node" },
+  { "username": "ya girl", "message": "JS" }
+]
