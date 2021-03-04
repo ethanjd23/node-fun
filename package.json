@@ -1,0 +1,14 @@
+{
+  "name": "fun",
+  "version": "1.0.0",
+  "description": "First node project, reddit json fetcher",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Delcambre",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
