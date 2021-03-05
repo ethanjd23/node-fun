@@ -15,7 +15,7 @@ request("https://reddit.com/r/popular.json", (err, res, body) => {
       path.extname(item.data.url) === ".gifv" ||
       path.extname(item.data.url) === ".png" 
     ) { 
-        fs.writeFile(dataPath, item.data.url, (err) => {
+        fs.writeFile(`${dataPath}/${item.data.id}`, item.data.url, (err) => {
                 if (err) {
                   console.log(err);
                 }
